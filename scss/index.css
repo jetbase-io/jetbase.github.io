@@ -223,7 +223,7 @@ input {
   background-repeat: no-repeat; }
   .top_block .img_bg {
     position: absolute;
-    top: -45px;
+    top: -40px;
     left: -25px;
     max-width: 720px; }
 
@@ -404,7 +404,7 @@ body {
 
 .content_body {
   width: 100%;
-  padding-bottom: 255px; }
+  padding-bottom: 100px; }
 
 .header-text h2 {
   font-weight: 600;
@@ -568,7 +568,7 @@ body {
       max-width: 100%; }
 
   .content_body {
-    padding-bottom: 0; } }
+    padding-bottom: 20px; } }
 @media (max-width: 768px) {
   .header-text .btn_block > div {
     margin-bottom: 10px; }
@@ -585,7 +585,7 @@ body {
     left: 50%; }
 
   .left-content {
-    padding: 0; }
+    padding: 0 10px; }
 
   .content_center .text {
     padding: 10px 50px; }

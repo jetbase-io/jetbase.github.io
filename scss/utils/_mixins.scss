@@ -1,11 +1,7 @@
-
-
-@mixin element($display: block, $content: ''){
+@mixin element($display: block, $content: '') {
   content: $content;
   display: $display;
 }
-
-
 
 @mixin center {
   margin: {

@@ -1,7 +1,7 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
-  
+
   @include flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,27 +9,30 @@ body{
   min-height: 100vh;
 }
 
-.content_body{
+.content_body {
   width: 100%;
-  padding-bottom: 255px;
+  padding-bottom: 100px;
 }
 
 .header-text {
-  h2{
+  h2 {
     font-weight: 600;
     font-size: 1.88em;
     line-height: 1.44em;
     color: #ffffff;
   }
-  p{
+
+  p {
     font-weight: normal;
     font-size: 1.44em;
     line-height: 1.44em;
     color: #B0E5E6;
   }
-  b{
+
+  b {
     font-weight: 600;
   }
+
   .start {
     background-color: #F78663;
     width: 190px;
@@ -42,36 +45,43 @@ body{
     text-transform: uppercase;
     border-radius: 10px;
     transition: 0.3s;
-    &:hover{
+
+    &:hover {
       background-color: #FF9966;
       text-decoration: none;
     }
   }
+
   .btn_block {
     @include flex;
     padding-top: 60px;
   }
-  .info{
+
+  .info {
     @include flex;
     justify-content: flex-end;
-    a{
+
+    a {
       font-weight: normal;
       font-size: 0.88em;
       color: #ffffff;
       @include flex;
       align-items: center;
-      img{
+
+      img {
         max-width: 100%;
         height: 15px;
         padding-right: 10px;
         opacity: 0.6;
         transition: 0.3s;
       }
-      &:last-child{
+
+      &:last-child {
         padding-left: 30px;
       }
-      &:hover{
-        img{
+
+      &:hover {
+        img {
           opacity: 1;
         }
       }
@@ -79,21 +89,24 @@ body{
   }
 }
 
-.content_center{
+.content_center {
   margin-top: -290px;
-  h3{
+
+  h3 {
     color: #219DAA;
     line-height: 2.1em;
     font-size: 1.88em;
     font-weight: 800;
   }
-  p{
+
+  p {
     font-size: 1em;
     font-weight: normal;
     color: #444444;
     line-height: 1.5em;
     padding-bottom: 28px;
   }
+
   .list_block {
     background-color: #172533;
     border-radius: 10px;
@@ -101,17 +114,20 @@ body{
     margin-top: 60px;
     float: right;
     width: 100%;
-    ul{
+
+    ul {
       padding: 25px;
       min-height: 375px;
       width: 100%;
-      li{
+
+      li {
         color: #ffffff;
         font-size: 1em;
         line-height: 1.5em;
         @include flex;
         font-weight: 600;
-        &:before{
+
+        &:before {
           content: ">";
           display: block;
           color: #666666;
@@ -119,6 +135,7 @@ body{
         }
       }
     }
+
     .header-list {
       background-color: #141E2B;
       border-radius: 10px;
@@ -126,19 +143,23 @@ body{
       height: 45px;
       @include flex;
       padding: 0 20px;
-      span{
+
+      span {
         width: 10px;
         height: 10px;
         border-radius: 50%;
         margin-right: 10px;
         display: block;
-        &:nth-child(1){
+
+        &:nth-child(1) {
           background-color: #D0021B;
         }
-        &:nth-child(2){
+
+        &:nth-child(2) {
           background-color: #F5A623;
         }
-        &:nth-child(3){
+
+        &:nth-child(3) {
           background-color: #7ED321;
         }
       }
@@ -150,30 +171,32 @@ body{
   .content_center {
     margin-top: 0;
     padding-top: 30px;
-    .list_block{
+
+    .list_block {
       width: 100%;
       max-width: 100%;
     }
   }
-  .content_body{
-    padding-bottom: 0;
+  .content_body {
+    padding-bottom: 20px;
   }
 }
 
 @media (max-width: 768px) {
-  .header-text{
+  .header-text {
     .btn_block {
-      > div{
+      > div {
         margin-bottom: 10px;
       }
     }
   }
-  .top_block{
-    .img_icons{
+  .top_block {
+    .img_icons {
       height: 500px;
       position: relative;
     }
-    .img_bg{
+
+    .img_bg {
       position: absolute;
       max-width: 600px;
       margin: 0 auto;
@@ -183,27 +206,30 @@ body{
     }
   }
   .left-content {
-    padding: 0;
+    padding: 0 10px;
   }
-  .content_center{
-    .text{
+  .content_center {
+    .text {
       padding: 10px 50px;
     }
   }
-  .top_block{
+  .top_block {
     .header-text {
       .start {
         margin: 0 auto 50px;
       }
+
       h2 {
         font-weight: 600;
         font-size: 2.5em;
       }
-      .info{
+
+      .info {
         justify-content: center;
         margin-bottom: 10px;
       }
-      .btn_block{
+
+      .btn_block {
         flex-direction: column;
       }
     }
@@ -216,6 +242,7 @@ body{
       position: absolute;
       max-width: 480px;
     }
+
     .img_icons {
       height: 410px;
     }

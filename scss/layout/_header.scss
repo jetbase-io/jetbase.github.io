@@ -1,4 +1,4 @@
-.top_block{
+.top_block {
   width: 100%;
   overflow: hidden;
   height: 885px;
@@ -6,23 +6,26 @@
   background-position: center top;
   background-repeat: no-repeat;
 
-  .img_bg{
+  .img_bg {
     position: absolute;
-    top: -45px;
+    top: -40px;
     left: -25px;
     max-width: 720px;
   }
 }
 
-header{
+header {
   padding: 40px 0;
-  .header-menu{
+
+  .header-menu {
     @include flex;
     justify-content: space-between;
   }
-  .menu{
+
+  .menu {
     @include flex;
-    a{
+
+    a {
       display: inline-block;
       color: #ffffff;
       font-weight: 600;
@@ -34,9 +37,11 @@ header{
       border-radius: 10px;
       transition: 0.3s;
       margin-left: 10px;
-      &.feature{
+
+      &.feature {
         border: 2px solid #ffffff;
-        &:hover{
+
+        &:hover {
           background-color: #46C2C3;
           border-color: #46C2C3;
           text-decoration: none;
@@ -51,16 +56,19 @@ header{
     background-image: none;
     background-color: #179399;
     height: 100%;
-    .img_bg{
+
+    .img_bg {
       position: initial;
     }
   }
-  header{
+  header {
     position: relative;
-    .container{
+
+    .container {
       position: relative;
     }
-    .menu{
+
+    .menu {
       display: none;
       position: absolute;
       flex-direction: column;
@@ -71,7 +79,8 @@ header{
       right: 0;
       z-index: 5;
       padding-top: 20px;
-      > a{
+
+      > a {
         margin: 10px auto;
       }
     }
@@ -79,8 +88,8 @@ header{
 }
 
 @media (max-width: 768px) {
-  header{
-    .header-menu{
+  header {
+    .header-menu {
       justify-content: center;
     }
   }
@@ -92,14 +101,15 @@ header{
       position: absolute;
       max-width: 500px;
     }
-    .img_icons{
+
+    .img_icons {
       height: 420px;
     }
   }
 }
 
 @media (max-width: 350px) {
-  .content_body{
+  .content_body {
     .content_center {
       .text {
         padding: 10px 20px;
