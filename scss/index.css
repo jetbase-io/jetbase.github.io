@@ -421,7 +421,7 @@ body {
   color: #B0E5E6;
   margin-bottom: 10px; }
 .header-text b {
-  font-weight: 600; }
+  font-weight: 700; }
 .header-text .start {
   background-color: #F78663;
   width: 190px;
@@ -437,7 +437,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   font-weight: bold;
-  font-size: 0.88em;
+  font-size: 1em;
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 10px;
@@ -494,25 +494,26 @@ body {
   margin-top: -290px; }
   .content_center h3 {
     color: #219daa;
-    line-height: 2.1em;
+    line-height: 34px;
     font-size: 1.88em;
-    font-weight: 800; }
+    font-weight: 800;
+    padding-bottom: 20px; }
   .content_center p {
     font-size: 1em;
     font-weight: normal;
     color: #444444;
-    line-height: 1.5em;
+    line-height: 26px;
     padding-bottom: 28px; }
   .content_center .list_block {
     background-color: #172533;
     border-radius: 10px;
     max-width: 510px;
-    margin-top: 60px;
+    margin-top: 0;
     float: right;
     width: 100%; }
     .content_center .list_block ul {
       padding: 25px;
-      min-height: 375px;
+      min-height: 255px;
       width: 100%; }
       .content_center .list_block ul li {
         color: #ffffff;

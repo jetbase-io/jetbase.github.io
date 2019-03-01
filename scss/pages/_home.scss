@@ -37,7 +37,7 @@ body {
   }
 
   b {
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .start {
@@ -47,7 +47,7 @@ body {
     @include flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 0.88em;
+    font-size: 1em;
     color: $inverse-base-color;
     text-transform: uppercase;
     border-radius: 10px;
@@ -101,16 +101,17 @@ body {
 
   h3 {
     color: $header-color;
-    line-height: 2.1em;
+    line-height: 34px;
     font-size: 1.88em;
     font-weight: 800;
+    padding-bottom: 20px;
   }
 
   p {
     font-size: 1em;
     font-weight: normal;
     color: $base-color;
-    line-height: 1.5em;
+    line-height: 26px;
     padding-bottom: 28px;
   }
 
@@ -118,13 +119,13 @@ body {
     background-color: #172533;
     border-radius: 10px;
     max-width: 510px;
-    margin-top: 60px;
+    margin-top: 0;
     float: right;
     width: 100%;
 
     ul {
       padding: 25px;
-      min-height: 375px;
+      min-height: 255px;
       width: 100%;
 
       li {
