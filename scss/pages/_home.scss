@@ -112,7 +112,23 @@ body {
     font-weight: normal;
     color: $base-color;
     line-height: 26px;
-    padding-bottom: 28px;
+    padding-bottom: 18px;
+  }
+
+  ul.frameworks {
+    list-style: none;
+
+    li::before {
+      content: "\2022";
+      color: $main-color;
+      font-size: 20px;
+      display: inline-block;
+      width: 1em;
+    }
+
+    li {
+      font-weight: 600;
+    }
   }
 
   .list_block {

@@ -503,7 +503,17 @@ body {
     font-weight: normal;
     color: #444444;
     line-height: 26px;
-    padding-bottom: 28px; }
+    padding-bottom: 18px; }
+  .content_center ul.frameworks {
+    list-style: none; }
+    .content_center ul.frameworks li::before {
+      content: "\2022";
+      color: #219daa;
+      font-size: 20px;
+      display: inline-block;
+      width: 1em; }
+    .content_center ul.frameworks li {
+      font-weight: 600; }
   .content_center .list_block {
     background-color: #172533;
     border-radius: 10px;
@@ -629,6 +639,7 @@ footer {
     color: #ffffff;
     margin-bottom: 25px;
     font-size: 1.4em;
+    font-weight: bold;
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
