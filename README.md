@@ -6,7 +6,7 @@ This is REST API swagger definition for an open-source web application generatio
 It's a great way to generate in a couple of minutes fully functional web application with any type of frontend and backend you want (check supported frameworks on our website).
 
 
-[![Made in MVP engine](https://img.shields.io/badge/made-in-MVP engine-brightgreen.svg)](https://mvpngn.com/)
+[![Made in MVP engine](https://img.shields.io/badge/made%20in-MVP%20engine-brightgreen.svg)](https://mvpngn.com/)
 
 # JetBase static website
 
